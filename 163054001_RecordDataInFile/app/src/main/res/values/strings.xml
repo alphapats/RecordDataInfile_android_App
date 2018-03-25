@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">163054001_RecordDataInFile</string>
+    <string name="tab_text_1">Login</string>
+    <string name="tab_text_2">Sensors</string>
+    <string name="tab_text_3">Record</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="email">EMail</string>
+    <string name="sex">Sex</string>
+    <string name="age">Age</string>
+    <string name="loginbtn">LOGIN</string>
+    <string name="nextbtn">NEXT</string>
+    <string name="enter_fname"></string>
+    <string name="enter_lname"></string>
+    <string name="enter_mobile"></string>
+    <string name="enter_email"></string>
+    <string name="err_msg">Error</string>
+    <string name="record">Record</string>
+    <string name="activity">Activity</string>
+    <string name="reading1"></string>
+    <string name="reading2"></string>
+    <string name="reading3"></string>
+    <string name="reading4"></string>
+    <string name="reading5"></string>
+    <string name="exitbtn">EXIT APP</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/activity"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+    <RadioGroup  android:id="@+id/enteractivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_toEndOf="@+id/activity"
+        >
+
+        <RadioButton
+            android:id="@+id/stationary"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:freezesText="true"
+            android:checked="false"
+            android:text="STATIONARY" />
+
+        <RadioButton android:id="@+id/walking"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:freezesText="true"
+            android:checked="false"
+            android:text="WALKING"
+            />
+    </RadioGroup>
+
+    <Switch
+        android:id="@+id/RecordSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity"
+        android:text="RECORD"
+        android:textOff="No"
+        android:textOn="Yes"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/reading1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RecordSwitch"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/reading1" />
+
+
+    <TextView
+        android:id="@+id/reading2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reading1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/reading2" />
+
+    <TextView
+        android:id="@+id/reading3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reading2"
+        android:layout_centerHorizontal="true"
+        android:text="@string/reading3" />
+
+    <TextView
+        android:id="@+id/reading4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/reading3"
+        android:text="@string/reading4" />
+
+    <TextView
+        android:id="@+id/reading5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reading4"
+        android:layout_centerHorizontal="true"
+        android:text="@string/reading5" />
+
+    <Button
+        android:id="@+id/closebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exitbtn"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/reading5"/>
+
+
+</RelativeLayout>
